@@ -12,7 +12,7 @@
     // Ajoute du CSS personnalisé
     GM_addStyle(`
         /* Votre CSS personnalisé ici */
-        .style-scope ytd-app {
+        .style-scope ytd-app, .style-scope ytd-popup-container {
             display: none;
         }
     `);
